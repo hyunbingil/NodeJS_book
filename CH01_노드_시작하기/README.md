@@ -173,3 +173,35 @@ ex) 크롬창 띄웠을 때 여러개의 탭들
 : React Native
 - 데스크탑 개발 도구\
 : Electron(Atom, Slack, VSCODE, Discord 등 제작)
+
+---
+
+## 🔨 4. 노드 설치하기
+### 1) 홈페이지 접속 후 설치
+#### 📝 WINDOW, MAC
+: LTS는 안정된 버전, Current는 최신 버전(실험적)\
+: https://nodejs.org
+
+- 필요 도구 반드시 설치하기\
+<img src="./img/캡처.PNG">
+
+#### 📝 LINUX
+: 터미널에 아래 코드 입력
+```
+sudo apt-get update
+sudo apt-get install -y build-essential
+sudo apt-get install curl
+curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash --
+sudo apt-get install -y node.js
+```
+### 2) 설치 완료 후 확인하기
+: 버전이 뜨면 설치가 성공
+```
+node -v
+npm -v
+```
+- npm 버전 업데이트
+```
+(sudo) npm install -g npm
+```
+> mac, linux는 명령어 앞에 sudo 붙이기
